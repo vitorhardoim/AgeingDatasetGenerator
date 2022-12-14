@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@types/ndjson": "^2.0.1",
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/array-sort": "^1.0.0",
+    "@types/axios": "^0.14.0",
+    "@types/csv2json": "^1.4.2",
+    "@types/json2csv": "^5.0.3",
+    "array-sort": "^1.0.0",
+    "axios": "^1.1.3",
+    "csv2json": "^2.0.2",
+    "fs": "^0.0.1-security",
+    "json2csv": "^5.0.7",
+    "moment": "^2.29.4",
+    "ndjson": "^2.0.0"
+  },
+  "scripts": {
+    "process": "ts-node handleGo.ts && ts-node handleUniProt.ts",
+    "final": "ts-node generateDataset.ts"
+  }
+}

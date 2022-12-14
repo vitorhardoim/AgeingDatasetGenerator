@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,      
+    "allowJs": true,
+    "lib": ["ES6"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true
+  },
+  "include": ["./*", "src/config", "src/scripts/handleGo.ts", "src/current-config.ts", "src/scripts/getAllGoTerms.ts", "src/scripts/handleUniProt.ts", "src/scripts/createGenagePair.ts", "src/_type.ts", "src/utils/_utils.ts", "src/utils/sortGoTerms.ts", "src/scripts/filterGoTerms.ts", "src/utils/insertNamesToCount.temp.ts", "src/scripts/generateDataset.ts"],
+  "ts-node": {
+    "files": true
+  }
+}

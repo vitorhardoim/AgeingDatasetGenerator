@@ -1,0 +1,5 @@
+node_modules
+src/outputs/*
+Anotações.docx
+data.json
+src/databases/*
